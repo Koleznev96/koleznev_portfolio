@@ -1,0 +1,163 @@
+@import '../../constants/ColorsStyles';
+
+.root {
+  background-color: $backgroundTwoMain;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 140px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.title {
+  font-size: 14px;
+  text-align: center;
+  color: $colorOrange;
+  margin-bottom: 10px;
+  letter-spacing: 0.15em;
+}
+
+.label {
+  font-size: 38px;
+  text-align: center;
+  color: $colorLabel;
+  margin-bottom: 14px;
+}
+
+.text {
+  font-size: 15px;
+  color: $colorText;
+  text-align: center;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+}
+
+//.list_card {
+//  width: 100%;
+//  display: flex;
+//  //flex-direction: column;
+//  flex-wrap: wrap;
+//  align-items: flex-start;
+//  flex-direction: column;
+//  height: 500px;
+//}
+
+.border {
+  margin-left: 25px;
+  position: relative;
+  display: inline-block;
+}
+
+.border:nth-child(1) {
+  margin-left: 0;
+}
+
+@media (max-width: 1350px) {
+  .list_card {
+    width: 600px;
+  }
+  .border {
+    margin-bottom: 25px;
+    margin-top: -10px;
+  }
+  .border:nth-child(2) {
+    //background-color: white;
+    //margin-bottom: 10px;
+  }
+  .border:nth-child(3) {
+    margin-left: 0;
+  }
+
+  .main {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 1110px) {
+  .menu_item_active {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: $colorOrange;
+    border-bottom: 1px solid $colorOrange;
+    cursor: pointer;
+    transition: 0s;
+  }
+
+  .menu_item {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: $colorText;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    transition: 0.3s;
+  }
+
+  .title {
+    font-size: 13px;
+  }
+
+  .label {
+    font-size: 32px;
+  }
+
+  .text {
+    font-size: 13px;
+    margin-bottom: -10px;
+  }
+
+  .slider {
+    margin-top: 30px;
+  }
+
+  .slider_null {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .list_card {
+    width: 400px;
+  }
+  .border {
+    margin-bottom: 25px;
+    margin-top: -10px;
+  }
+  .border:nth-child(2) {
+    //background-color: white;
+    //margin-bottom: 10px;
+  }
+  .border:nth-child(3) {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .border {
+    margin-bottom: 25px;
+    margin-left: 0;
+  }
+  .border:nth-child(2) {
+    margin-left: 0;
+  }
+  .border:nth-child(3) {
+    margin-left: 0;
+  }
+  .list_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

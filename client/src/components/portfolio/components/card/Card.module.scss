@@ -1,0 +1,155 @@
+@import '../../../../constants/ColorsStyles';
+
+.card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.site_info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  background-color: $backgroundTwoMain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  //background-size: cover;
+  //background-size: 100% 100%;
+  //background-size: contain;
+  //background-size: 100% 100%;
+  //width: 100%;
+  //height: 100%;
+  //max-width: 100%;
+  ////max-height: 100%;
+  //background-size: contain;
+  ////overflow: hidden;
+  ////display: flex;
+  ////justify-content: center;
+  ////align-items: center;
+  //overflow: hidden;
+  //display: flex;
+  //justify-content: center;
+  //align-items: center;
+  //flex-shrink: 0;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.box {
+  width: 100%;
+  height: 300px;
+  background-color: $backgroundMain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 16px;
+  color: $colorLabel;
+  margin-bottom: 6px;
+}
+
+.label {
+  font-size: 15px;
+  color: $colorOrange;
+}
+
+.center_button {
+  margin-top: 30px;
+  padding: 4px 22px;
+  border: 1.5px solid $colorOrange;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.6s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.button_site {
+  font-size: 15px;
+  color: $colorOrange;
+}
+
+.counter {
+  font-size: 24px;
+  color: $colorOrange;
+  margin-bottom: 8px;
+}
+
+.text {
+  font-size: 13px;
+  color: $colorText;
+}
+
+.main {
+  margin-left: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  cursor: pointer;
+  transition: 0.6s;
+
+  &:hover {
+    .site_info {
+      transition: 0.8s;
+      opacity: 1;
+    }
+  }
+}
+
+.main_min {
+  width: 425px;
+  height: 425px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  display: none;
+  cursor: pointer;
+  transition: 0.6s;
+
+  &:hover {
+    .site_info {
+      transition: 0.8s;
+      opacity: 1;
+    }
+  }
+}
+
+@media (max-width: 1010px) {
+  .main {
+    display: none;
+  }
+  .main_min {
+    display: flex;
+  }
+}
+
+@media (max-width: 700px) {
+  .main_min {
+    width: 325px;
+    height: 325px;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1ffa7f76.css",
+    "main.js": "/static/js/main.746611b1.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/SocialNetwork.png": "/static/media/SocialNetwork.8d7e7dca0d0bf02a28a4.png",
+    "static/media/teo.jpg": "/static/media/teo.2a00e1cbb4936e1683cb.jpg",
+    "static/media/profile.png": "/static/media/profile.174d103750bec63a3602.png",
+    "static/media/moveon.png": "/static/media/moveon.2c22236afa7233d8f567.png",
+    "static/media/dmd.png": "/static/media/dmd.ac0e01062c67e57b611b.png",
+    "static/media/teo.png": "/static/media/teo.382ca0620efd08dc8034.png",
+    "static/media/inqoob.png": "/static/media/inqoob.01968ea2565a4ffb2119.png",
+    "static/media/adminPanel.png": "/static/media/adminPanel.88d7174bc76a5167e916.png",
+    "static/media/openmind.png": "/static/media/openmind.99e518a240457b1e0020.png",
+    "static/media/openMindPhone.png": "/static/media/openMindPhone.8f166a0e23891a4177ea.png",
+    "static/media/teoCrmOne.png": "/static/media/teoCrmOne.39de4f482d6f9bc4de41.png",
+    "static/media/proMedCs.png": "/static/media/proMedCs.54c5a3b0e343af74c5f9.png",
+    "static/media/mus.png": "/static/media/mus.f67290f36cf1e91d3427.png",
+    "static/media/koleznev.png": "/static/media/koleznev.71dbc8328d1bf1ad949b.png",
+    "index.html": "/index.html",
+    "main.1ffa7f76.css.map": "/static/css/main.1ffa7f76.css.map",
+    "main.746611b1.js.map": "/static/js/main.746611b1.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ffa7f76.css",
+    "static/js/main.746611b1.js"
+  ]
+}

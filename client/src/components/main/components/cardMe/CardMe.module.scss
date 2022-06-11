@@ -1,0 +1,174 @@
+@import '../../../../constants/ColorsStyles';
+
+
+.card_me {
+  width: 400px;
+  padding-top: 200px;
+}
+
+.label_one {
+  font-size: 48px;
+  color: $colorLabel;
+}
+
+.label_two {
+  font-size: 48px;
+  color: $colorLabel;
+  margin-left: 5px;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.cr {
+  width: 8px;
+  height: 8px;
+  border-radius: 100px;
+  background-color: $colorOrange;
+  margin-bottom: 9px;
+  margin-left: 4px;
+}
+
+.hr {
+  margin-top: 40px;
+  margin-bottom: 25px;
+  width: 48px;
+  height: 1px;
+  background-color: $colorOrange;
+}
+
+.hr_mini {
+  width: 1px;
+  height: 16px;
+  background-color: $colorLabel;
+  margin: 2px 10px;
+}
+
+.list_contact {
+  font-size: 15px;
+  color: $colorLabel;
+  margin-bottom: 8px;
+}
+
+.button_contact {
+  margin-top: 40px;
+  padding: 16px;
+  border: 1.5px solid $colorOrange;
+  color: $colorOrange;
+  font-size: 16px;
+  cursor: pointer;
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.min_label {
+  display: none;
+}
+
+@media (max-width: 1110px) {
+  .min_label {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .full_label {
+    display: none;
+  }
+
+  .min_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 340px;
+  }
+
+  .card_me {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .label_one {
+    font-size: 42px;
+    text-align: center;
+  }
+
+  .label_two {
+    margin-left: 0;
+    //text-align: center;
+    //width: 100%;
+  }
+
+  .wrapper {
+    margin-left: 20px;
+    width: 245px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .hr {
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  .button_contact {
+    margin-top: 75px;
+    padding: 8px;
+    border: 1.5px solid $colorOrange;
+    color: $colorOrange;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1010px) {
+  .card_me {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  .min_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button_contact {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 427px) {
+  .label_one {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .min_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .min_wrapper {
+    width: 100%
+  }
+}

@@ -1,0 +1,65 @@
+@import '../../constants/ColorsStyles';
+
+.root {
+  background-color: $backgroundMain;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  //height: 800px;
+}
+
+.max_block {
+  width: 400px;
+}
+
+.min_block {
+  width: 100%;
+  display: none;
+}
+
+@media (max-width: 1620px) {
+  .max_block {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1110px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+
+  .max_block {
+    width: 100%;
+    display: none;
+  }
+
+  .min_block {
+    display: block;
+  }
+}
+
+@media (max-width: 1010px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+  }
+
+  .max_block {
+    display: block;
+  }
+
+  .min_block {
+    display: none;
+  }
+}

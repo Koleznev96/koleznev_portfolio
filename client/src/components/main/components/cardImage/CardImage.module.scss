@@ -1,0 +1,45 @@
+@import '../../../../constants/ColorsStyles';
+
+
+.card_image {
+  width: 600px;
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 120px;
+}
+
+.profile {
+
+}
+
+@media (max-width: 1620px) {
+  .card_image {
+    width: 400px;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 1110px) {
+  .card_image {
+    width: 400px;
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 1010px) {
+  .card_image {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 427px) {
+  .card_image {
+    width: 100%;
+  }
+
+  .profile {
+    max-width: 100%;
+  }
+}

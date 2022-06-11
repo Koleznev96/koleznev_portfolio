@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+
+.root {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 1500px;
+}
+
+.box_ {
+    width: 1500px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper_start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media (max-width: 1620px) {
+    .box {
+        width: 1200px;
+    }
+    .box_ {
+        width: 1200px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .box {
+        width: 1000px;
+    }
+    .box_ {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1110px) {
+    .box {
+        width: 800px;
+    }
+    .box_ {
+        width: 100%;
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 700px) {
+    .box {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1010px) {
+    .box {
+        width: 700px;
+    }
+}
+
+@media (max-width: 500px) {
+    .box {
+        width: 90%;
+    }
+}
+
+.CustomFontLite {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+.CustomFontRegular {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.CustomFontMedium {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.CustomFontBold {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.CustomFontExtraBold {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.BellotaFontLite {
+    //font-size: 18px;
+    font-family: 'Bellota', sans-serif;
+    font-weight: 300;
+    //color: #fff;
+}
+
+.BellotaFontRegular {
+    //font-size: 18px;
+    font-family: 'Bellota', sans-serif;
+    font-weight: 400;
+    //color: #fff;
+}
+
+.BellotaFontBold {
+    //font-size: 18px;
+    font-family: 'Bellota', serif;
+    font-weight: 500;
+    //color: #fff;
+}

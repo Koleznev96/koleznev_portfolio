@@ -1,0 +1,17 @@
+@import '../../../../constants/ColorsStyles';
+
+.card {
+  width: 200px;
+  height: 38px;
+  background-color: $backgroundTwoMain;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.value {
+  font-size: 13px;
+  margin-left: 16px;
+  color: $colorOrange;
+}
